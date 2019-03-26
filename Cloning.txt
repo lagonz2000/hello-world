@@ -1,0 +1,7 @@
+How to clone a complete repo with all the branch (this is kind of a hack).
+
+md <DIR>
+cd <DIR>
+git clone --mirror URL .git
+git config -bool core.bare false
+git reset --hard
