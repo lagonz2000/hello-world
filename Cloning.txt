@@ -8,3 +8,5 @@ git reset --hard
 
 
 -New stuff
+
+git push --set-upstream origin new_stuff
